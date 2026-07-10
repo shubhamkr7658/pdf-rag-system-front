@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF RAG Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🤖 PDF RAG Assistant</h1>
+
+<a href="sample.pdf" target="_blank">
+    📄 View Sample PDF
+</a>
+
+    <textarea
+        id="question"
+        placeholder="Ask anything about the PDF..."
+    ></textarea>
+
+    <button onclick="askQuestion()">
+        Ask
+    </button>
+
+    <h3>Answer</h3>
+
+    <div id="answer">
+        Your answer will appear here...
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
