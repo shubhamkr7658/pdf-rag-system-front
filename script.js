@@ -1,4 +1,4 @@
-const API_URL = "https://pdf-rag-system-4.onrender.com/ai";
+const API_URL = "https://pdf-rag-system-4.onrender.com";
 
 async function askQuestion(){
 
